@@ -58,6 +58,7 @@ const AlbumHeader = (props) => {
                 <List.Item><BA href="#" text="white">Email me</BA></List.Item>
                 <List.Item><BA href="https://www.linkedin.com/in/james-chalmers-a47a85a6/" text="white">LinkedIn</BA></List.Item>
                 <List.Item><BA href="https://stackoverflow.com/users/story/5830202" text="white">Stack Overflow</BA></List.Item>
+                <List.Item><BA href="https://happy-jepsen-102e57.netlify.app/blog/" text="white">My Blog</BA></List.Item>
               </List>
             </Col>
           </Row>
