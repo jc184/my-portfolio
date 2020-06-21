@@ -100,7 +100,7 @@ const AlbumJumbotron = (props) => {
     <Jumbotron text="center" style={style}>
       <Container>
         <BH1 style={style.heading}>Web Development Portfolio example</BH1>
-        <Lead text="muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don&#39;t simply skip over it entirely.</Lead>
+        <Lead text="muted">This is my web development portfolio - my name is James Chalmers and I am an ASP.NET Core C# developer with 18 months commercial experience. I am also intersted in React, Ruby on Rails and MEAN / MERN stack applications.</Lead>
       </Container>
       <p>
         <Button primary mx="1" my="2">Main call to action</Button>
