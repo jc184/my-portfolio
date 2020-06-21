@@ -50,15 +50,14 @@ const AlbumHeader = (props) => {
           <Row>
             <Col col="sm-8 md-4" py="4">
               <BH4 text="white">About</BH4>
-              <BP text="muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</BP>
+              <BP text="muted">This portfolio of web applications has been assembled in my spare time over the last few weeks. It contains mainly ASP.NET Core MVC and WebAPI applications, but also React and Ruby on Rails apps as well. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</BP>
             </Col>
             <Col sm="4" offset="md-1" py="4">
               <BH4 text="white">Contact</BH4>
               <List unstyled>
-                <List.Item><BA href="#" text="white">Follow on Twitter</BA></List.Item>
-                <List.Item><BA href="#" text="white">Like on Facebook</BA></List.Item>
                 <List.Item><BA href="#" text="white">Email me</BA></List.Item>
                 <List.Item><BA href="https://www.linkedin.com/in/james-chalmers-a47a85a6/" text="white">LinkedIn</BA></List.Item>
+                <List.Item><BA href="https://stackoverflow.com/users/story/5830202" text="white">Stack Overflow</BA></List.Item>
               </List>
             </Col>
           </Row>
@@ -100,7 +99,7 @@ const AlbumJumbotron = (props) => {
   return (
     <Jumbotron text="center" style={style}>
       <Container>
-        <BH1 style={style.heading}>Web Development Portfolio example</BH1>
+        <BH1 style={style.heading}>Web Development Portfolio</BH1>
         <Lead text="muted">This is my web development portfolio - my name is James Chalmers and I am an ASP.NET Core C# developer with 18 months commercial experience,in Sports Betting development, using C#, ASP.NET Core, WepAPI, MVC, Angular and React. I am also interested in React, Ruby on Rails and MEAN / MERN stack applications. These applications are all developed in my spare time and have been deployed to Heroku, Azure and Amazon Web Services so they can be viewed by prospective employers etc.</Lead>
       </Container>
       <p>
