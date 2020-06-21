@@ -58,6 +58,7 @@ const AlbumHeader = (props) => {
                 <List.Item><BA href="#" text="white">Follow on Twitter</BA></List.Item>
                 <List.Item><BA href="#" text="white">Like on Facebook</BA></List.Item>
                 <List.Item><BA href="#" text="white">Email me</BA></List.Item>
+                <List.Item><BA href="https://www.linkedin.com/in/james-chalmers-a47a85a6/" text="white">LinkedIn</BA></List.Item>
               </List>
             </Col>
           </Row>
