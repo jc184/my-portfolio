@@ -82,8 +82,7 @@ const AlbumFooter = (props) => {
     <BFooter text="muted">
       <Container>
         <BP float="right"><a href="#">Back to top</a></BP>
-        <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-        <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>
+        <p>Portfolio is &copy; James Chalmers 2020</p>
       </Container>
     </BFooter>
   )
@@ -101,11 +100,10 @@ const AlbumJumbotron = (props) => {
     <Jumbotron text="center" style={style}>
       <Container>
         <BH1 style={style.heading}>Web Development Portfolio</BH1>
-        <Lead text="muted">This is my web development portfolio - my name is James Chalmers and I am an ASP.NET Core C# developer with 18 months commercial experience,in Sports Betting development, using C#, ASP.NET Core, WepAPI, MVC, Angular and React. I am also interested in React, Ruby on Rails and MEAN / MERN stack applications. These applications are all developed in my spare time and have been deployed to Heroku, Azure and Amazon Web Services so they can be viewed by prospective employers etc.</Lead>
+        <Lead text="muted">This is my web development portfolio - my name is James Chalmers and I am an ASP.NET Core C# developer with 18 months commercial experience in Sports Betting development, using C#, ASP.NET Core, WepAPI, MVC, Angular and React. I possess a BSc Degree in Computing (Software Development) from Moray College UHI, Elgin, Scotland. I am also interested in Java, Ruby on Rails and MEAN / MERN stack applications. These applications are all developed in my spare time and have been deployed to Heroku, Azure and Amazon Web Services so they can be viewed by prospective employers etc.</Lead>
       </Container>
       <p>
-        <Button primary mx="1" my="2">Main call to action</Button>
-        <Button secondary mx="1" my="2">Secondary action</Button>
+        <Button primary mx="1" my="2">Main call to action</Button>        <Button secondary mx="1" my="2">Secondary action</Button>
       </p>
     </Jumbotron>
   )
