@@ -32,7 +32,7 @@ const AlbumCard = (props) => {
           <BDiv display="flex" justifyContent="between" alignItems="center">
             <ButtonGroup>
               <Button secondary outline sm>View</Button>
-              <Button secondary outline sm>Edit</Button>
+              <Button secondary outline sm>Source</Button>
             </ButtonGroup>
             <BSmall text="muted">9 mins</BSmall>
           </BDiv>
@@ -138,7 +138,7 @@ class App extends Component {
           <BDiv py="5" bg="light">
             <Container>
               <Row>
-                <AlbumCard />
+                <AlbumCard1 />
                 <AlbumCard />
                 <AlbumCard />
                 <AlbumCard />
