@@ -76,7 +76,7 @@ const AlbumHeader = (props) => {
           <Row>
             <Col col="sm-8 md-4" py="4">
               <BH4 text="white">About</BH4>
-              <BP text="muted">This portfolio of web applications has been assembled in my spare time over the last few weeks. It contains mainly ASP.NET Core MVC and WebAPI applications, but also React and Ruby on Rails apps as well. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</BP>
+              <BP text="muted">This portfolio of web applications has been assembled in my spare time over the last few weeks. It contains mainly ASP.NET Core MVC and WebAPI applications, but also React, Ruby on Rails and MEAN/MERN stack apps as well.</BP>
             </Col>
             <Col sm="4" offset="md-1" py="4">
               <BH4 text="white">Contact</BH4>
