@@ -46,7 +46,7 @@ const AlbumCard1 = (props) => {
   return (
     <Col md="4">
       <Card mb="4" shadow="sm">
-        <Card.Image top src={contosothumbnail}/>
+        <Card.Image top src={contosothumbnail} onClick={()=> window.open("https://contosouniversity20200621180934.azurewebsites.net/", "_blank")}/>
         <Card.Body>
           <Card.Text>Contoso University is an ASP.NET Core MVC web application, created by following this <BA href="https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/?view=aspnetcore-3.1" text="black">Microsoft tutorial</BA> It uses MVC and EF Core to link to Sql Server database hosted on Azure. The app is also hosted on Azure and was published by using Visual Studio 2019's 'publish to Azure' wizard.</Card.Text>
           <BDiv display="flex" justifyContent="between" alignItems="center">
