@@ -41,6 +41,25 @@ const AlbumCard = (props) => {
     </Col>
   )
 }
+const AlbumCard1 = (props) => {
+  return (
+    <Col md="4">
+      <Card mb="4" shadow="sm">
+        <Card.Image top src={thumbnailSrc} />
+        <Card.Body>
+          <Card.Text>Contoso University is an ASP.NET Core MVC web application, created by following this <BA href="https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/?view=aspnetcore-3.1" text="black">Microsoft tutorial</BA></Card.Text>
+          <BDiv display="flex" justifyContent="between" alignItems="center">
+            <ButtonGroup>
+              <Button secondary outline sm>View</Button>
+              <Button secondary outline sm>Source</Button>
+            </ButtonGroup>
+            <BSmall text="muted">9 mins</BSmall>
+          </BDiv>
+        </Card.Body>
+      </Card>
+    </Col>
+  )
+}
 
 const AlbumHeader = (props) => {
   return (
