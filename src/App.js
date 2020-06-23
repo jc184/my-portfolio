@@ -47,10 +47,10 @@ const AlbumCard1 = (props) => {
       <Card mb="4" shadow="sm">
         <Card.Image top src={thumbnailSrc} />
         <Card.Body>
-          <Card.Text>Contoso University is an ASP.NET Core MVC web application, created by following this <BA href="https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/?view=aspnetcore-3.1" text="black">Microsoft tutorial</BA> It uses MVC and EF Core to link to Sql Server database hosted on Azure. THe app is also hosted on Azure and was published by using Visual Studio 2019's 'publish to Azure' wizard.</Card.Text>
+          <Card.Text>Contoso University is an ASP.NET Core MVC web application, created by following this <BA href="https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/?view=aspnetcore-3.1" text="black">Microsoft tutorial</BA> It uses MVC and EF Core to link to Sql Server database hosted on Azure. The app is also hosted on Azure and was published by using Visual Studio 2019's 'publish to Azure' wizard.</Card.Text>
           <BDiv display="flex" justifyContent="between" alignItems="center">
             <ButtonGroup>
-                <Button type="button" secondary outline sm onClick={()=> window.open("https://contosouniversity20200621180934.azurewebsites.net/", "_blank")}>View</Button>
+              <Button type="button" secondary outline sm onClick={()=> window.open("https://contosouniversity20200621180934.azurewebsites.net/", "_blank")}>View</Button>
               <Button secondary outline sm onClick={()=> window.open("https://github.com/jc184/ContosoUniversity", "_blank")}>Source</Button>
             </ButtonGroup>
             <BSmall text="muted">9 mins</BSmall>
@@ -69,7 +69,7 @@ const AlbumHeader = (props) => {
           <Row>
             <Col col="sm-8 md-4" py="4">
               <BH4 text="white">About</BH4>
-              <BP text="muted">This portfolio of web applications has been assembled in my spare time over the last few weeks. It contains mainly ASP.NET Core MVC and WebAPI applications, but also React, Ruby on Rails and MEAN/MERN stack apps as well.</BP>
+              <BP text="muted">This portfolio of web applications has been assembled in my spare time over the last few weeks. It contains mainly ASP.NET Core MVC and WebAPI applications, but also React, Ruby on Rails and MEAN / MERN stack apps as well. They are all small applications - for anything sizeable e.g microservices, please see my GitHub page.</BP>
             </Col>
             <Col sm="4" offset="md-1" py="4">
               <BH4 text="white">Contact</BH4>
@@ -77,6 +77,7 @@ const AlbumHeader = (props) => {
                 <List.Item><BA href="#" text="white">Email me</BA></List.Item>
                 <List.Item><BA href="https://www.linkedin.com/in/james-chalmers-a47a85a6/" text="white">LinkedIn</BA></List.Item>
                 <List.Item><BA href="https://stackoverflow.com/users/story/5830202" text="white">Stack Overflow</BA></List.Item>
+                <List.Item><BA href="https://github.com/jc184" text="white">Github</BA></List.Item>
                 <List.Item><BA href="https://happy-jepsen-102e57.netlify.app/blog/" text="white">My Blog</BA></List.Item>
               </List>
             </Col>
@@ -119,7 +120,7 @@ const AlbumJumbotron = (props) => {
     <Jumbotron text="center" style={style}>
       <Container>
         <BH1 style={style.heading}>Web Development Portfolio</BH1>
-        <Lead text="muted">This is my web development portfolio - my name is James Chalmers and I am an ASP.NET Core C# developer with 18 months commercial experience in Sports Betting development, using C#, ASP.NET Core, WepAPI, MVC, Angular and React. I possess a BSc Degree in Computing (Software Development) from Moray College UHI, Elgin, Scotland. I am also interested in Java, Ruby on Rails and MEAN / MERN stack applications. These applications are all developed in my spare time and have been deployed to Heroku, Azure and Amazon Web Services so they can be viewed by prospective employers etc.</Lead>
+        <Lead text="muted">This is my web development portfolio - my name is James Chalmers and I am an ASP.NET Core C# developer with 18 months commercial experience in Sports Betting development, using C#, ASP.NET Core, WepAPI, MVC, Angular and React. I possess a BSc Degree in Computing (Software Development) from Moray College UHI, Elgin, Scotland. I am also interested in Java, Ruby on Rails and MEAN / MERN stack applications. These small applications are all developed in my spare time and have been deployed to Heroku, Azure and Amazon Web Services so they can be viewed by prospective employers etc.</Lead>
       </Container>
       <p>
         <Button primary mx="1" my="2">Main call to action</Button>        <Button secondary mx="1" my="2">Secondary action</Button>
