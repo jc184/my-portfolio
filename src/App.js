@@ -51,9 +51,10 @@ const AlbumCard1 = (props) => {
           <Card.Text>Contoso University is an ASP.NET Core MVC web application, created by following this <BA href="https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/?view=aspnetcore-3.1" text="black">Microsoft tutorial</BA> It uses MVC and EF Core to link to Sql Server database hosted on Azure. THe app is also hosted on Azure and was published by using Visual Studio 2019's 'publish to Azure' wizard.</Card.Text>
           <BDiv display="flex" justifyContent="between" alignItems="center">
             <ButtonGroup>
-              <Link to='https://contosouniversity20200621180934.azurewebsites.net/'>
-                <Button secondary outline sm>View</Button>
-              </Link>
+                <Button type="button" secondary outline sm  onClick={(e) => {
+                e.preventDefault();
+                window.location.href='https://contosouniversity20200621180934.azurewebsites.net/';
+                }}>View</Button>
               <Button secondary outline sm>Source</Button>
             </ButtonGroup>
             <BSmall text="muted">9 mins</BSmall>
