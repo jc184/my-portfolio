@@ -24,6 +24,7 @@ const thumbnailSrc = "data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22508%2
 export const contosothumbnail = require('./ContosoUniversityThumbnail.png');
 export const listofingredientsthumbnail = require('./LIstOfIngredients.png');
 export const todoapplicationthumbnail = require('./ToDoApplication.png');
+export const meancontactslistthumbnail = require('./MEANContactsList.png');
 
 const AlbumCard = (props) => {
   return (
@@ -113,6 +114,30 @@ const AlbumCard3 = (props) => {
   )
 }
 
+const AlbumCard4 = (props) => {
+  return (
+    <Col md="4">
+      <Card mb="4" shadow="sm">
+        <Card.Image top src={meancontactslistthumbnail} onClick={()=> window.open("https://murmuring-temple-57986.herokuapp.com/", "_blank")}/>
+        <Card.Body>
+          <h4>MEAN Contacts List</h4>
+          <Card.Text>The MEAN Contacts List is a MEAN Stack (MongoDB, Expressjs, Angularjs, Nodejs) web application that uses a Angular frontend, 
+            a Node backend restful API and stores its data in a MongoDB database. 
+            It was created by following this <BA href="https://devcenter.heroku.com/articles/mean-apps-restful-api" text="black">Mean Stack tutorial. </BA> 
+            It also uses Heroku deployment to host the app, and the user can add, edit and remove contacts, which are stored in a MongoLabs database.</Card.Text>
+          <BDiv display="flex" justifyContent="between" alignItems="center">
+            <ButtonGroup>
+              <Button type="button" secondary outline sm onClick={()=> window.open("https://murmuring-temple-57986.herokuapp.com/", "_blank")}>View</Button>
+              <Button secondary outline sm >Source</Button>
+            </ButtonGroup>
+            <BSmall text="muted">9 mins</BSmall>
+          </BDiv>
+        </Card.Body>
+      </Card>
+    </Col>
+  )
+}
+
 const AlbumHeader = (props) => {
   return (
     <header>
@@ -171,7 +196,7 @@ const AlbumJumbotron = (props) => {
   return (
     <Jumbotron text="center" style={style}>
       <Container>
-        <BH1 style={style.heading}>Web Development Portfolio</BH1>
+        <BH1 style={style.heading}>React / ASP.NET Core Web Development Portfolio</BH1>
         <Lead text="muted">This is my web development portfolio - my name is James Chalmers and I am an ASP.NET Core C# developer with 18 months commercial experience in Sports Betting development, using C#, ASP.NET Core, WepAPI, MVC, Angular and React. I possess a BSc Degree in Computing (Software Development) from Moray College UHI, Elgin, Scotland. I am also interested in Java, Ruby on Rails and MEAN / MERN stack applications. These small applications are all developed in my spare time and have been deployed to Heroku, Azure and Amazon Web Services so they can be viewed by prospective employers etc.</Lead>
       </Container>
       <p>
@@ -194,7 +219,7 @@ class App extends Component {
                 <AlbumCard1 />
                 <AlbumCard2 />
                 <AlbumCard3 />
-                <AlbumCard />
+                <AlbumCard4 />
                 <AlbumCard />
                 <AlbumCard />
                 <AlbumCard />
