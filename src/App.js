@@ -176,7 +176,7 @@ const AlbumHeader = (props) => {
             <Col sm="4" offset="md-1" py="4">
               <BH4 text="white">Contact</BH4>
               <List unstyled>
-                <List.Item><BA href="#" text="white">Email me</BA></List.Item>
+                <List.Item><BA href="mailto:james.chalmers184@gmail.com" text="white">Email me</BA></List.Item>
                 <List.Item><BA href="https://www.linkedin.com/in/james-chalmers-a47a85a6/" text="white" target="_blank">LinkedIn</BA></List.Item>
                 <List.Item><BA href="https://stackoverflow.com/users/story/5830202" text="white" target="_blank">Stack Overflow</BA></List.Item>
                 <List.Item><BA href="https://github.com/jc184" text="white" target="_blank">Github</BA></List.Item>
@@ -222,7 +222,7 @@ const AlbumJumbotron = (props) => {
     <Jumbotron text="center" style={style}>
       <Container>
         <BH1 style={style.heading}>React / ASP.NET Core Web Development Portfolio</BH1>
-        <Lead text="muted">This is my web development portfolio - my name is James Chalmers and I am an ASP.NET Core C# developer with 18 months commercial experience in Sports Betting development, using C#, ASP.NET Core, WepAPI, MVC, Angular and React. I possess a BSc Degree in Computing (Software Development) from Moray College UHI, Elgin, Scotland. I am also interested in Java, Ruby on Rails and MEAN / MERN stack applications. These small applications are all developed in my spare time and have been deployed to Heroku, Azure and Amazon Web Services so they can be viewed by prospective employers etc.</Lead>
+        <Lead text="muted">This is my web development portfolio - my name is James Chalmers and I am an ASP.NET Core C# developer with 18 months commercial experience in Sports Betting development, using C#, ASP.NET Core, WepAPI, MVC, Angular and React. I possess a BSc Degree in Computing (Software Development) from Moray College UHI, Elgin, Scotland. I am also interested in Ruby on Rails and MEAN / MERN stack applications. These small applications are all developed in my spare time and have been deployed to Heroku, Azure and Amazon Web Services so they can be viewed by prospective employers etc.</Lead>
       </Container>
       <p>
         <Button primary mx="1" my="2">Main call to action</Button>        <Button secondary mx="1" my="2">Secondary action</Button>
