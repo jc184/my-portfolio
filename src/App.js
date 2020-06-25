@@ -25,6 +25,7 @@ export const contosothumbnail = require('./ContosoUniversityThumbnail.png');
 export const listofingredientsthumbnail = require('./LIstOfIngredients.png');
 export const todoapplicationthumbnail = require('./ToDoApplication.png');
 export const meancontactslistthumbnail = require('./MEANContactsList.png');
+export const loginexamplelistthumbnail = require('./ReactReduxLoginExample.png');
 
 const AlbumCard = (props) => {
   return (
@@ -138,6 +139,30 @@ const AlbumCard4 = (props) => {
   )
 }
 
+const AlbumCard5 = (props) => {
+  return (
+    <Col md="4">
+      <Card mb="4" shadow="sm">
+        <Card.Image top src={loginexamplelistthumbnail} onClick={()=> window.open("http://52.174.30.43/", "_blank")}/>
+        <Card.Body>
+          <h4>React-Redux Login Example</h4>
+          <Card.Text>React-Redux Login Example is a full stack ASP.NET Core Web API web application that uses a React frontend. 
+            It is hosted on a Windows VM on Azure and uses IIS to run both frontend and backend applications. 
+            It was created by following this <BA href="https://jasonwatmore.com/post/2020/01/10/react-aspnet-core-on-azure-with-sql-server-how-to-deploy-a-full-stack-app-to-microsoft-azure" text="black">React-Redux Login tutorial. </BA> 
+            The application allows a user to register and login, and user details are stored in an Azure SqlServer database. All credit for this app should really go to Jason Watmore for his tutorial.</Card.Text>
+          <BDiv display="flex" justifyContent="between" alignItems="center">
+            <ButtonGroup>
+              <Button type="button" secondary outline sm onClick={()=> window.open("http://52.174.30.43/", "_blank")}>View</Button>
+              <Button secondary outline sm >Source</Button>
+            </ButtonGroup>
+            <BSmall text="muted">9 mins</BSmall>
+          </BDiv>
+        </Card.Body>
+      </Card>
+    </Col>
+  )
+}
+
 const AlbumHeader = (props) => {
   return (
     <header>
@@ -220,7 +245,7 @@ class App extends Component {
                 <AlbumCard2 />
                 <AlbumCard3 />
                 <AlbumCard4 />
-                <AlbumCard />
+                <AlbumCard5 />
                 <AlbumCard />
                 <AlbumCard />
                 <AlbumCard />
