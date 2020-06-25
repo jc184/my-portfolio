@@ -59,7 +59,6 @@ const AlbumCard1 = (props) => {
               <Button type="button" secondary outline sm onClick={()=> window.open("https://contosouniversity20200621180934.azurewebsites.net/", "_blank")}>View</Button>
               <Button secondary outline sm onClick={()=> window.open("https://github.com/jc184/ContosoUniversity", "_blank")}>Source</Button>
             </ButtonGroup>
-            <BSmall text="muted">9 mins</BSmall>
           </BDiv>
         </Card.Body>
       </Card>
@@ -83,7 +82,6 @@ const AlbumCard2 = (props) => {
               <Button type="button" secondary outline sm onClick={()=> window.open("https://peaceful-wave-81061.herokuapp.com/", "_blank")}>View</Button>
               <Button secondary outline sm >Source</Button>
             </ButtonGroup>
-            <BSmall text="muted">9 mins</BSmall>
           </BDiv>
         </Card.Body>
       </Card>
@@ -107,7 +105,6 @@ const AlbumCard3 = (props) => {
               <Button type="button" secondary outline sm onClick={()=> window.open("https://guarded-inlet-64438.herokuapp.com/", "_blank")}>View</Button>
               <Button secondary outline sm >Source</Button>
             </ButtonGroup>
-            <BSmall text="muted">9 mins</BSmall>
           </BDiv>
         </Card.Body>
       </Card>
@@ -131,7 +128,6 @@ const AlbumCard4 = (props) => {
               <Button type="button" secondary outline sm onClick={()=> window.open("https://murmuring-temple-57986.herokuapp.com/", "_blank")}>View</Button>
               <Button secondary outline sm >Source</Button>
             </ButtonGroup>
-            <BSmall text="muted">9 mins</BSmall>
           </BDiv>
         </Card.Body>
       </Card>
@@ -155,7 +151,6 @@ const AlbumCard5 = (props) => {
               <Button type="button" secondary outline sm onClick={()=> window.open("http://52.174.30.43/", "_blank")}>View</Button>
               <Button secondary outline sm >Source</Button>
             </ButtonGroup>
-            <BSmall text="muted">9 mins</BSmall>
           </BDiv>
         </Card.Body>
       </Card>
@@ -224,9 +219,6 @@ const AlbumJumbotron = (props) => {
         <BH1 style={style.heading}>React / ASP.NET Core Web Development Portfolio</BH1>
         <Lead text="muted">This is my web development portfolio - my name is James Chalmers and I am an ASP.NET Core C# developer with 18 months commercial experience in Sports Betting development, using C#, ASP.NET Core, WepAPI, MVC, Angular and React. I possess a BSc Degree in Computing (Software Development) from Moray College UHI, Elgin, Scotland. I am also interested in Ruby on Rails and MEAN / MERN stack applications. These small applications are all developed in my spare time and have been deployed to Heroku, Azure and Amazon Web Services so they can be viewed by prospective employers etc.</Lead>
       </Container>
-      <p>
-        <Button primary mx="1" my="2">Main call to action</Button>        <Button secondary mx="1" my="2">Secondary action</Button>
-      </p>
     </Jumbotron>
   )
 }
