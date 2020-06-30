@@ -119,8 +119,8 @@ const AlbumCard4 = (props) => {
         <Card.Image top src={meancontactslistthumbnail} onClick={()=> window.open("https://murmuring-temple-57986.herokuapp.com/", "_blank")}/>
         <Card.Body>
           <h4>MEAN Contacts List</h4>
-          <Card.Text>The MEAN Contacts List is a MEAN Stack (MongoDB, Expressjs, Angularjs, Nodejs) web application that uses a Angular frontend, 
-            a Node backend restful API and stores its data in a MongoDB database. 
+          <Card.Text>The MEAN Contacts List is a MEAN Stack (MongoDB, Expressjs, Angularjs, Nodejs) web application that uses an Angular frontend, 
+            a Node backend RESTful API and stores its data in a MongoDB database. 
             It was created by following this <BA href="https://devcenter.heroku.com/articles/mean-apps-restful-api" text="black">Mean Stack tutorial. </BA> 
             It also uses Heroku deployment to host the app, and the user can add, edit and remove contacts, which are stored in a MongoLabs database.</Card.Text>
           <BDiv display="flex" justifyContent="between" alignItems="center">
@@ -175,6 +175,7 @@ const AlbumHeader = (props) => {
                 <List.Item><BA href="https://www.linkedin.com/in/james-chalmers-a47a85a6/" text="white" target="_blank">LinkedIn</BA></List.Item>
                 <List.Item><BA href="https://stackoverflow.com/users/story/5830202" text="white" target="_blank">Stack Overflow</BA></List.Item>
                 <List.Item><BA href="https://github.com/jc184" text="white" target="_blank">Github</BA></List.Item>
+                <List.Item><BA href="https://twitter.com/jc1848" text="white" target="_blank">Twitter</BA></List.Item>
                 <List.Item><BA href="https://happy-jepsen-102e57.netlify.app/blog/" text="white" target="_blank">My Blog</BA></List.Item>
               </List>
             </Col>
@@ -217,7 +218,7 @@ const AlbumJumbotron = (props) => {
     <Jumbotron text="center" style={style}>
       <Container>
         <BH1 style={style.heading}>React / ASP.NET Core Web Development Portfolio</BH1>
-        <Lead text="muted">This is my web development portfolio - my name is James Chalmers and I am an ASP.NET Core C# developer with 18 months commercial experience in Sports Betting development, using C#, ASP.NET Core, WepAPI, MVC, Angular and React. I possess a BSc Degree in Computing (Software Development) from Moray College UHI, Elgin, Scotland. I am also interested in Ruby on Rails and MEAN / MERN stack applications. These small applications are all developed in my spare time and have been deployed to Heroku, Azure and Amazon Web Services so they can be viewed by prospective employers etc.</Lead>
+        <Lead text="muted">This is my web development portfolio - my name is James Chalmers and I am an ASP.NET Core C# developer with 18 months commercial experience in Sports Betting development, using C#, ASP.NET Core, WebAPI, MVC, Angular and React. I possess a BSc Degree in Computing (Software Development) from Moray College UHI, Elgin, Scotland. I am also interested in Ruby on Rails and MEAN / MERN stack applications. These small applications are all developed in my spare time and have been deployed to Heroku, Azure and Amazon Web Services so they can be viewed by prospective employers etc.</Lead>
       </Container>
     </Jumbotron>
   )
