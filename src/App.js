@@ -26,6 +26,7 @@ export const listofingredientsthumbnail = require('./LIstOfIngredients.png');
 export const todoapplicationthumbnail = require('./ToDoApplication.png');
 export const meancontactslistthumbnail = require('./MEANContactsList.png');
 export const loginexamplelistthumbnail = require('./ReactReduxLoginExample.png');
+export const maturefashionsthumbnail = require('./MatureFashions.png');
 
 const AlbumCard = (props) => {
   return (
@@ -158,6 +159,29 @@ const AlbumCard5 = (props) => {
   )
 }
 
+const AlbumCard6 = (props) => {
+  return (
+    <Col md="4">
+      <Card mb="4" shadow="sm">
+        <Card.Image top src={maturefashionsthumbnail} onClick={()=> window.open("https://maturefashionsappv220200717120142.azurewebsites.net/Homes", "_blank")}/>
+        <Card.Body>
+          <h4>Mature Fashions</h4>
+          <Card.Text>Mature Fashions is a full stack ASP.NET Core MVC web application that uses the Database First method in its creation. 
+            It is hosted on a Azure and uses an Azure hosted SQL Server database to store data about fashion shows in nursing homes in the UK. 
+            It was created by building the app from a pre-existing local database and deploying both to Azure by using Visual Studio's Publish wizard.
+            The application allows a user to carry out C-R-U-D functions on the database of 11 tables via the applications interface</Card.Text>
+          <BDiv display="flex" justifyContent="between" alignItems="center">
+            <ButtonGroup>
+              <Button type="button" secondary outline sm onClick={()=> window.open("https://maturefashionsappv220200717120142.azurewebsites.net/Homes", "_blank")}>View</Button>
+              <Button secondary outline sm >Source</Button>
+            </ButtonGroup>
+          </BDiv>
+        </Card.Body>
+      </Card>
+    </Col>
+  )
+}
+
 const AlbumHeader = (props) => {
   return (
     <header>
@@ -239,7 +263,7 @@ class App extends Component {
                 <AlbumCard3 />
                 <AlbumCard4 />
                 <AlbumCard5 />
-                <AlbumCard />
+                <AlbumCard6 />
                 <AlbumCard />
                 <AlbumCard />
                 <AlbumCard />
