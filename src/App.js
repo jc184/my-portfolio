@@ -185,8 +185,8 @@ const AlbumCard6 = (props) => {
 const AlbumHeader = (props) => {
   return (
     <header>
+      <script type="text/javascript"  src="https://platform.linkedin.com/badges/js/profile.js" async defer></script> 
       <Collapse bg="dark" id="navbarHeader">
-      
         <Container>
           <Row>
             <Col col="sm-8 md-4" py="4">
@@ -204,8 +204,7 @@ const AlbumHeader = (props) => {
                 <List.Item><BA href="https://happy-jepsen-102e57.netlify.app/blog/" text="white" target="_blank">My Blog</BA></List.Item>
               </List>
             </Col>
-            <Col sm="4" offset="md-1" py="4">
-            <script type="text/javascript"  src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>  
+            <Col sm="4" offset="md-1" py="4">             
             <BH4 text="white">LinkedIn</BH4>
               <div className="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="james-chalmers-a47a85a6"><a className="LI-simple-link" href='https://uk.linkedin.com/in/james-chalmers-a47a85a6?trk=profile-badge'>James Chalmers</a></div>
             </Col>
