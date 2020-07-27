@@ -19,6 +19,7 @@ import {
   BSmall,
   BFooter
 } from 'bootstrap-4-react';
+import {Helmet} from "react-helmet";
 
 const thumbnailSrc = "data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22508%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20508%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_16544932167%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A25pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_16544932167%22%3E%3Crect%20width%3D%22508%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22169.7578125%22%20y%3D%22123.9%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E";
 export const contosothumbnail = require('./ContosoUniversityThumbnail.png');
@@ -185,7 +186,6 @@ const AlbumCard6 = (props) => {
 const AlbumHeader = (props) => {
   return (
     <header>
-      <script type="text/javascript"  src="https://platform.linkedin.com/badges/js/profile.js" async defer></script> 
       <Collapse bg="dark" id="navbarHeader">
         <Container>
           <Row>
@@ -206,7 +206,12 @@ const AlbumHeader = (props) => {
             </Col>
             <Col sm="4" offset="md-1" py="4">             
             <BH4 text="white">LinkedIn</BH4>
-              <div className="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="james-chalmers-a47a85a6"><a className="LI-simple-link" href='https://uk.linkedin.com/in/james-chalmers-a47a85a6?trk=profile-badge'>James Chalmers</a></div>
+              <div className="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="james-chalmers-a47a85a6">
+              <Helmet>
+                <script type="text/javascript"  src="https://platform.linkedin.com/badges/js/profile.js" async defer></script> 
+              </Helmet>
+                <a className="LI-simple-link" href='https://uk.linkedin.com/in/james-chalmers-a47a85a6?trk=profile-badge'>James Chalmers</a>
+              </div>
             </Col>
           </Row>
         </Container>
